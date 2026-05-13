@@ -1,6 +1,6 @@
 # DSA in Python 💻
 
-Learning Data Structures and Algorithms using Python.
+Learning Data Structures and Algorithms using Python.  [Leetcode](https://leetcode.com/u/aashutosh_yadav_/)
 
 ---
 
