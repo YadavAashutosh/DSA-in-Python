@@ -11,8 +11,8 @@ class Solution:
         return b-c
 
 ans = Solution()
-print(ans.subtractProductAndSum(234))
-print(ans.subtractProductAndSum(4421))
+print(ans.subtractProductAndSum(234)) #15
+print(ans.subtractProductAndSum(4421)) #21
 
 '''
 Another method :
