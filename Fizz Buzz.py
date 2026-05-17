@@ -18,7 +18,7 @@ a.fb(10)  # No output here because return doesnt print anything it just fetch th
 #     print("Hi")
 
 # x = hello() here the value of x is None
-# print(x) here it will print hi and None bcuz no return value
+# print(x) here it will print hi and None bcuz no return value.
 
 
 print(a.fb(15))
