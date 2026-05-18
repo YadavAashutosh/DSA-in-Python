@@ -41,7 +41,7 @@ class TimeComplexityAllInOne:
 
 
 demo = TimeComplexityAllInOne()
-
+print("Time Taken: O(1) < O(log n) < O(n) < O(n log n) < O(n * m) < O(n^2) < O(2^n)")
 demo.constant_time(100)
 demo.logarithmic_time(100)
 demo.linear_time(100)
