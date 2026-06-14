@@ -37,3 +37,17 @@ def insertatfirst(currhead,newdata):
 
 head= insertatfirst(head,10)
 printlinkedlist(head) # 10 5 7 3 
+
+
+def insertatlast(currhead,newdata):
+    newnode = Node(newdata)
+
+    while currhead.next != None:
+        currhead = currhead.next
+    currhead.next = newnode
+    
+print("")
+
+insertatlast(head,1)
+printlinkedlist(head) #10 5 7 3 1 
+
