@@ -20,4 +20,4 @@ print(o.groupAnagrams(["a"]))
 
 # [['eat', 'tea', 'ate'], ['tan', 'nat'], ['bat']]
 # [['']]
-# [['a']] 
+# [['a']]  
