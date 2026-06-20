@@ -51,3 +51,15 @@ print("")
 insertatlast(head,1)
 printlinkedlist(head) #10 5 7 3 1 
 
+print("\n")
+def insertatkthposition(currhead,newdata,kth):
+    newdata= Node(newdata)
+
+    for i in range(kth-1):
+        currhead = currhead.next
+    newdata.next= currhead.next
+    currhead.next = newdata
+
+insertatkthposition(head,6,2)
+printlinkedlist(head)
+
